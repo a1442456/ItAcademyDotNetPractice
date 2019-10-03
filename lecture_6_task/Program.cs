@@ -77,6 +77,7 @@ namespace lecture_6_task
 
         static void RunTask4()
         {
+            Console.WriteLine("Task 4");
             short _short = 2;
             object objShort = (object)_short;//Boxing
             //sbyte newShort = (sbyte)objShort; Cant convert from short to sbyte cz short is larger than sbyte type
